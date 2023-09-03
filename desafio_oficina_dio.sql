@@ -1,57 +1,9 @@
-Ir para o conteúdo
-Thiago-Eulácio
-/
-Cria-o-Banco-de-Dados-Ecommerce
 
-Digite /para pesquisar
-
-Código
-Problemas
-Solicitações pull
-Ações
-Projetos
-Segurança
-Percepções
-Largura do painel
-Use um valor entre 17 % e 38 %
-
-21
-Alterar largura
-arquivos
-Ir para o arquivo
-t
-Criação_BD_Ecommerce.sql
-Desafio_Final.sql
-Inserções_Ecommerce.sql
-Projeto_BD_Oficina.sql
-Consultas_Ecommerce.sql
-README.md
-desafio_indice.sql
-desafio_views.sql
-Documentação  •  Compartilhar feedback
-Migalhas de pãoCria-o-Banco-de-Dados-Ecommerce
-/Projeto_BD_Oficina.sql
-Último commit
-Thiago-Eulácio
-Thiago-Eulácio
-Adicionar arquivos via upload
-338a62c
- · 
-há 4 meses
-História
-Migalhas de pãoCria-o-Banco-de-Dados-Ecommerce
-/Projeto_BD_Oficina.sql
-Metadados e controles de arquivo
-
-Código
-
-Culpa
-149 linhas (117 locais) · 4,08 KB
 -- Criando o Schema lógico--
-Create schema oficina;
+Create Database oficina;
 
 -- Entrando no Banco de dados oficina--
-use oficina
+use oficina;
 
 -- Criando a tabela Clientes
 create table clientes (
@@ -196,4 +148,3 @@ on v.idMecanicos=m.idMecanicos;
 
 
 
-Cria-o-Banco-de-Dados-Ecommerce/Projeto_BD_Oficina.sql at main · Thiago-Eulalio/Cria-o-Banco-de-Dados-Ecommerce While the code is focused, press Alt+F1 for a menu of operations.
